@@ -1,0 +1,39 @@
+{
+  "name": "@sovtech/semantic-release-config",
+  "version": "1.0.0",
+  "description": "SovTech's semantic-release shareable configuration",
+  "main": ".releaserc.json",
+  "files": [
+    ".releaserc.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovtech/semantic-release-config.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config",
+    "npm",
+    "sovtech",
+    "git",
+    "release",
+    "changelog"
+  ],
+  "author": "Nusrath Khan <nusrath501khan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sovtech/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/sovtech/semantic-release-config#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/npm": "^5.3.4",
+    "@semantic-release/release-notes-generator": "^7.3.5",
+    "semantic-release-slack-bot": "^1.5.0"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=15.13.31"
+  }
+}
