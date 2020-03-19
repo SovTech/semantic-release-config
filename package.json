@@ -6,6 +6,9 @@
   "files": [
     ".releaserc.json"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sovtech/semantic-release-config.git"
