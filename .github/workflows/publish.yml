@@ -20,20 +20,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22' # Specify your required Node.js version
+          node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: npm i
 
-      # Create or configure .npmrc to ensure correct registry and token for scoped packages
-      - name: Configure npm to use the npm token
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
-          echo "@sovtech:registry=https://registry.npmjs.org" >> .npmrc
-
-      - name: Publish to npm
-        run: npm publish --access public # Assuming your package is public
+      - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 # env:
