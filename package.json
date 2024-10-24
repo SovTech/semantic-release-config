@@ -1,6 +1,6 @@
 {
   "name": "@sovtech/semantic-release-config",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Scrums.com's semantic-release shareable configuration",
   "main": ".releaserc.json",
   "files": [
@@ -35,6 +35,9 @@
     "url": "https://github.com/sovtech/semantic-release-config/issues"
   },
   "homepage": "https://github.com/sovtech/semantic-release-config#readme",
+  "scripts": {
+    "release": "semantic-release"
+  },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
