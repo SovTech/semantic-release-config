@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/sovtech/semantic-release-config/compare/v1.0.1...v1.0.2) (2024-10-24)
+
+
+### Bug Fixes
+
+* **release:** reorder ([fd50de1](https://github.com/sovtech/semantic-release-config/commit/fd50de134eb31a428cec501f5ecf1438f5c55d97))
+
 ## [1.0.1](https://github.com/sovtech/semantic-release-config/compare/v1.0.0...v1.0.1) (2024-10-24)
 
 
