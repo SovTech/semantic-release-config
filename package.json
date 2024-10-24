@@ -51,6 +51,5 @@
   },
   "resolutions": {
     "micromatch": "^4.0.8"
-  },
-  "packageManager": "pnpm@9.12.2"
+  }
 }
