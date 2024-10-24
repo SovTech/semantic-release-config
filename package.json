@@ -45,5 +45,6 @@
   },
   "peerDependencies": {
     "semantic-release": ">=15.13.31"
-  }
+  },
+  "packageManager": "pnpm@9.12.2"
 }
