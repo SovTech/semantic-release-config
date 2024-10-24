@@ -1,4 +1,4 @@
-<h1 align="center">@sovtech/semantic-release-config</h1>
+<h1 align="center">@scrumsdotcom/semantic-release-config</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/sovtech/semantic-release-config#readme" target="_blank">
@@ -36,13 +36,13 @@ This [shareable configuration](https://github.com/sovtech/semantic-release-confi
 With Yarn
 
 ```bash
-$ yarn add -D semantic-release @sovtech/semantic-release-config
+$ yarn add -D semantic-release @scrumsdotcom/semantic-release-config
 ```
 
 With NPM
 
 ```bash
-$ npm install --save-dev semantic-release @sovtech/semantic-release-config
+$ npm install --save-dev semantic-release @scrumsdotcom/semantic-release-config
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ Preferred via `.releaserc` file:
 
 ```json
 {
-  "extends": "@sovtech/semantic-release-config"
+  "extends": "@scrumsdotcom/semantic-release-config"
 }
 ```
 
@@ -62,7 +62,7 @@ Or via `release` key in the project's `package.json` file:
 ```json
 {
   "release": {
-    "extends": "@sovtech/semantic-release-config"
+    "extends": "@scrumsdotcom/semantic-release-config"
   }
 }
 ```
