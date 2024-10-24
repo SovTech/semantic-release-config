@@ -49,8 +49,5 @@
   "peerDependencies": {
     "semantic-release": ">=15.13.31"
   },
-  "resolutions": {
-    "micromatch": "^4.0.2"
-  },
   "packageManager": "pnpm@9.12.2"
 }
