@@ -1,0 +1,31 @@
+name: Node.js Package Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' # Specify your required Node.js version
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.0.0
+
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Publish to npm
+        run: pnpm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
