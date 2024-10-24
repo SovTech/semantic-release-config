@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run semantic release
-        run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: npm run release
