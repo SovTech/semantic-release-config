@@ -8,11 +8,11 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/sovtech/semantic-release-config/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/sovtech/@sovtech/semantic-release-config" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
-> SovTech's shareable [**semantic-release**](https://github.com/semantic-release/semantic-release) configuration
+> Scrums.com's shareable [**semantic-release**](https://github.com/semantic-release/semantic-release) configuration
 
 ## Plugins
 
@@ -49,21 +49,21 @@ $ npm install --save-dev semantic-release @sovtech/semantic-release-config
 
 The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
 
-Via `release` key in the project's `package.json` file:
+Preferred via `.releaserc` file:
+
+```json
+{
+  "extends": "@sovtech/semantic-release-config"
+}
+```
+
+Or via `release` key in the project's `package.json` file:
 
 ```json
 {
   "release": {
     "extends": "@sovtech/semantic-release-config"
   }
-}
-```
-
-Via `.releaserc` file:
-
-```json
-{
-  "extends": "@sovtech/semantic-release-config"
 }
 ```
 
