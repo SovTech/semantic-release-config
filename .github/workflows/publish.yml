@@ -14,9 +14,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Echo env
-        run: echo ${{ secrets.NPM_TOKEN }}
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
