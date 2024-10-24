@@ -33,16 +33,28 @@ This [shareable configuration](https://github.com/sovtech/semantic-release-confi
 
 ## Install
 
-With Yarn
+With yarn:
 
 ```bash
 $ yarn add -D semantic-release @scrumsdotcom/semantic-release-config
 ```
 
-With NPM
+With npm:
 
 ```bash
 $ npm install --save-dev semantic-release @scrumsdotcom/semantic-release-config
+```
+
+With pnpm:
+
+```bash
+$ pnpm add -D semantic-release @scrumsdotcom/semantic-release-config
+```
+
+With bun:
+
+```bash
+$ bun add -d semantic-release @scrumsdotcom/semantic-release-config
 ```
 
 ## Usage
